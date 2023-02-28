@@ -1,0 +1,25 @@
+.header {
+    form {
+        display: flex;
+    }
+    
+    &-item {
+        display: flex;
+        flex-direction: column;
+        label {
+            margin-bottom: 5px;
+        }
+        span {
+            margin-top: 5px;
+            color: red;
+        }
+        &:not(:last-child) {
+            margin-right: 20px;
+        }
+    }
+
+        button {
+            width: 100px;
+            cursor: pointer;
+        }
+}
